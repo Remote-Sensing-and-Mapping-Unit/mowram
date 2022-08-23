@@ -38,9 +38,9 @@ m.add_basemap("SATTELITE")
 m.add_basemap("Esri.NatGeoWorldMap")
 
 
-hydro = '/data/hydrostation1.csv'
-cambodia = '/data/cambodia.geojson'
-catchment='/data/catchment.geojson'
+hydro = 'mowram/data/hydrostation1.csv'
+cambodia = 'mowram/data/cambodia.geojson'
+catchment='mowram/data/catchment.geojson'
 
 # m.add_geojson(cambodia,layer_name='Cambodia Province')
 m.add_geojson(catchment,layer_name='Cambodia Catchment')
