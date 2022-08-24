@@ -39,7 +39,7 @@ m.add_basemap("Esri.NatGeoWorldMap")
 
 
 hydro = '/data/hydrostation1.csv'
-cambodia = '/data/cambodia.geojson'
+cambodia = 'https://raw.githubusercontent.com/yputhealy/mowram/main/data/cambodia.geojson'
 catchment='https://raw.githubusercontent.com/yputhealy/mowram/main/data/catchment.geojson'
 
 # m.add_geojson(cambodia,layer_name='Cambodia Province')
