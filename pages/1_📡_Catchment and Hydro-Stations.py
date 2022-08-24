@@ -38,7 +38,7 @@ m.add_basemap("SATTELITE")
 m.add_basemap("Esri.NatGeoWorldMap")
 
 
-hydro = '/data/hydrostation1.csv'
+hydro = 'https://raw.githubusercontent.com/yputhealy/mowram/main/data/hydrostation1.csv'
 cambodia = 'https://raw.githubusercontent.com/yputhealy/mowram/main/data/cambodia.geojson'
 catchment='https://raw.githubusercontent.com/yputhealy/mowram/main/data/catchment.geojson'
 
